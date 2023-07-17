@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    background-color: #73523F;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+nav > ul > li {
+    float: left;
+    padding-left: 20px;
+    
+}
+a:link, a:visited {
+    text-decoration:none;
+    color: #F2E0DF;
+}
+
+a{
+    padding-top: 50%;
+}
+
+h1{
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+.imagem-gato{
+    max-width:50px;
+    max-height:50px;
+    padding-top: 15px;
+}
+
+.texto-barra{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.titulo{
+    font-size: 125px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 125px;
+}
+
+.marilyn-titulo{
+    background-image: url("./images/marilyn1.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    height: 450px;
+    color: #F2E0DF;
+}
+
+.cafezinho-index{
+    background-color: #CCF2C2;
+    height: 400px;
+}
+
+.cafe-img1{
+    max-width: 400px;
+    max-height: 400px;
+    padding: 15px;
+    margin: 35px;
+    background-color: white;
+}
+
+.cafe-texto1{
+    padding: 30px;
+    text-align: justify;
+    margin-left: 50px;
+    width: 600px;
+}
+
+.gatinhos-titulo{
+    background-image: url("./images/gatinhos1.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    height: 450px;
+    color: #F2E0DF;
+}
+
+.contato-titulo{
+    background-image: url("./images/dracula2.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    height: 450px;
+    color: #F2E0DF;
+}
+
+.cafes-titulo{
+    background-image: url("./images/marilyn3.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    height: 450px;
+    color: #F2E0DF;
+}
+
+.container{
+    display: flex;
+}
+
+.gatinhos1{
+    height: 900px;
+    
+}
+
+.gatinhos2{
+    height: 33,3%;
+}
+
+.gatinhos-img{
+    max-width: 200px;
+    max-height: 200px;
+    padding: 15px;
+    margin: 35px 35px 35px 70px;
+    background-color: white;
+}
+
+.gatinhos-texto{
+    padding: 20px;
+    text-align: justify;
+    margin: auto;
+    width: 600px;
+}
+
+.img-footer{
+    max-width: 150px;
+    max-height: 150px;
+    padding: 25px;
+    padding-left: 50px;
+}
+
+.texto-footer{
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.lista-footer{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+}
+
+footer{
+    height: 200px;
+    background-color: #3d2c22;
+    color: white;
+}
+
+.contato1{
+    background-color: #CCF2C2;
+    margin: 0;
+    height: 500px;
+    text-align: center;
+}
+
+.contato1 > h2{
+    padding: 40px;
+
+}
+
+form{
+    max-width: 400px;
+}
+table{
+    text-align: center;
+    margin: auto;
+}
+
+tr{
+    max-width: 400px;
+}
+
+input, textarea{
+    display: block;
+}
+
+.label {
+    margin-bottom: 20px;
+    
+}
+
+.nome-email{
+    width: 350px;
+}
+
+.mensagem{
+    width: 350px;
+    height: 150px;
+}
+
+@media (max-width: 1000px) {
+    .gatinhos1{
+        height: 60%; 
+    }
+    .titulo{
+        padding-top: 50px;
+    }
+}
